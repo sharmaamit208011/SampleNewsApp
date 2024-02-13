@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C92DC932-8EE4-4D64-9022-BC85CEEAEF86"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38BBFCD3-777A-4068-A970-2A62C3DF1E5B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "38BBFCD3-777A-4068-A970-2A62C3DF1E5B - 8cd46cdc6f80e001"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SampleNewsApp.Article&gt;, Foundation.UUID, SampleNewsApp.NewsItemView&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.StringProtocol, &#x3c4;_1_1: SwiftUI.View&gt;(_: &#x3c4;_1_0, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0&gt; in SampleNewsApp.ContentView.body.getter : some"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp/SampleNewsApp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+               <Location
+                  uuid = "38BBFCD3-777A-4068-A970-2A62C3DF1E5B - 694aace80ee41569"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.Button&lt;SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.ForEach&lt;Swift.Array&lt;SampleNewsApp.Article&gt;, Foundation.UUID, SampleNewsApp.NewsItemView&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_1_0: Swift.StringProtocol, &#x3c4;_1_1: SwiftUI.View&gt;(_: &#x3c4;_1_0, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, actions: () -&gt; &#x3c4;_1_1) -&gt; some&gt;&gt;.0&gt; in SampleNewsApp.ContentView.body.getter : some"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp/SampleNewsApp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43E207B9-063C-4A09-84C8-D84AF7CCA8A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/Features/Presentation/View/NewsDetailViews.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "43E207B9-063C-4A09-84C8-D84AF7CCA8A3 - 647f204833b2a91b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.Text, Swift.Optional&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0)&gt;&gt; in SampleNewsApp.NewsDetailViews.body.getter : some"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/Presentation/View/NewsDetailViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "3727">
+               </Location>
+               <Location
+                  uuid = "43E207B9-063C-4A09-84C8-D84AF7CCA8A3 - 931aef30207a0e1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, Swift.Optional&lt;SwiftUI.Text&gt;, SwiftUI.NavigationLink&lt;SwiftUI.Button&lt;SwiftUI.Text&gt;, SampleNewsApp.NewsDetailView&gt;, SwiftUI.Text, Swift.Optional&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.aspectRatio(_: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, contentMode: SwiftUI.ContentMode) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.EdgeInsets) -&gt; some&gt;&gt;.0)&gt;&gt; in SampleNewsApp.NewsDetailViews.body.getter : some"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/Presentation/View/NewsDetailViews.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "3906">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FECB423B-0771-4858-A093-ED2C7BC3ED8A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/Features/Data/NewsAPIWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchNews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FECB423B-0771-4858-A093-ED2C7BC3ED8A - 1cf5d2efc76fc80a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SampleNewsApp.NewsAPIWorker.fetchNews() async throws -&gt; Swift.Array&lt;SampleNewsApp.NewsDataDTO&gt;"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/Data/NewsAPIWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "FECB423B-0771-4858-A093-ED2C7BC3ED8A - c0395f7c31d048dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SampleNewsApp.NewsAPIWorker.fetchNews() async throws -&gt; Swift.Array&lt;SampleNewsApp.NewsDataDTO&gt;"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/Data/NewsAPIWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "FECB423B-0771-4858-A093-ED2C7BC3ED8A - 566dd9f5a3450cf4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SampleNewsApp.NewsAPIWorker.fetchNews() async throws -&gt; Swift.Array&lt;SampleNewsApp.NewsDataDTO&gt;"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/Data/NewsAPIWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "102">
+               </Location>
+               <Location
+                  uuid = "FECB423B-0771-4858-A093-ED2C7BC3ED8A - b4a9da70ada86d37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SampleNewsApp.NewsAPIWorker.fetchNews() async throws -&gt; Swift.Array&lt;SampleNewsApp.NewsDataDTO&gt;"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/Data/NewsAPIWorker.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8D95750-F3CF-4E7F-B70D-E9B4A43A6B22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/Features/NewsListView/Presentation/View/NewsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E8D95750-F3CF-4E7F-B70D-E9B4A43A6B22 - e93699ea1d9f465c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleNewsApp.NewsListView.body.getter : some"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/NewsListView/Presentation/View/NewsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "353">
+               </Location>
+               <Location
+                  uuid = "E8D95750-F3CF-4E7F-B70D-E9B4A43A6B22 - aa87a5f172a6d73c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SampleNewsApp.News) -&gt; SwiftUI.NavigationLink&lt;SampleNewsApp.NewsItemView, SampleNewsApp.NewsDetailView&gt; in SampleNewsApp.NewsListView.body.getter : some"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/NewsListView/Presentation/View/NewsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "209A534E-3850-4C26-A931-CAC1CA09AF07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchNews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "209A534E-3850-4C26-A931-CAC1CA09AF07 - d27e76094deb5f18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SampleNewsApp.NewsViewModel.fetchNews() async -&gt; ()"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "209A534E-3850-4C26-A931-CAC1CA09AF07 - ed8a1a796f4e0e0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SampleNewsApp.NewsViewModel.fetchNews() async -&gt; ()"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "209A534E-3850-4C26-A931-CAC1CA09AF07 - 4c33a43bf752111a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SampleNewsApp.NewsViewModel.fetchNews() async -&gt; ()"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "39">
+               </Location>
+               <Location
+                  uuid = "209A534E-3850-4C26-A931-CAC1CA09AF07 - 86e9833324066a1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SampleNewsApp.NewsViewModel.fetchNews() async -&gt; ()"
+                  moduleName = "SampleNewsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amisharm17/Documents/SampleNewsApp-SwiftUI/SampleNewsApp/SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC195666-CDAF-4904-94EC-84FEC5758515"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchNews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCD05761-1160-480A-B636-36FF9505F771"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleNewsApp/Features/NewsListView/Data/Service/NewsAPIWorker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchNews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

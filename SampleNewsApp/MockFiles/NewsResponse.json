@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Oren Liebermann, Haley Britzky, Natasha Bertrand, Kevin Liptak, Alex Marquardt, MJ Lee, Jennifer Hansler",
+      "title": "US and UK carry out strikes against Iran-backed Houthis in Yemen - CNN",
+      "description": "The US and UK militaries launched strikes against multiple Houthi targets in Houthi-controlled areas of Yemen on Thursday, marking a significant response after the Biden administration and its allies warned that the Iran-backed militant group would bear the c…",
+      "url": "https://www.cnn.com/2024/01/11/politics/us-strikes-houthis-yemen/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/24012051-01-us-strike-yemen-011124-still.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2024-01-12T08:05:00Z",
+      "content": "The US and UK militaries launched strikes against multiple Houthi targets in Houthi-controlled areas of Yemen on Thursday, marking a significant response after the Biden administration and its allies… [+11295 chars]"
+    }
+  ]
+}
