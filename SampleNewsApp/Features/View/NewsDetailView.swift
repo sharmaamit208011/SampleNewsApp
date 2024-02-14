@@ -33,24 +33,24 @@ struct NewsDetailView: View {
                     .aspectRatio(contentMode: .fit)
                 
                 VStack(alignment: .leading, spacing: 12.0) {
-                    if !viewModel.isTitleEmpty() {
+                    if viewModel.isTitleEmpty {
                         Text(viewModel.news?.title ?? "")
                             .font(.custom("HelveticaNeue-Bold", size: 16.0))
                     }
-                    if !viewModel.isdescriptionEmpty() {
+                    if viewModel.isdescriptionEmpty {
                         Text(viewModel.news?.description ?? "")
                             .font(.custom("HelveticaNeue", size: 15.0))
                     }
-                    if !viewModel.iscontentEmpty() {
+                    if viewModel.iscontentEmpty {
                         Text(viewModel.news?.content ?? "")
                             .font(.custom("HelveticaNeue", size: 14.0))
                     }
                     NavigationLink(destination: NewsWebView(newsURL: viewModel.news?.newsURL ?? "")) {
                         Text("Read full article")
                     }
-                    Text(viewModel.getFormattedDate())
+                    Text(viewModel.publishedDate)
                         .font(.custom("HelveticaNeue", size: 12.0))
-                    if !viewModel.issourceNameEmpty() {
+                    if viewModel.isSourceNameEmpty {
                         Text(viewModel.news?.sourceName ?? "")
                             .font(.custom("HelveticaNeue-Medium", size: 10.0))
                     }

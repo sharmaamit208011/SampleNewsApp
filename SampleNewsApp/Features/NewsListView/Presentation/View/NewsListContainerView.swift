@@ -1,5 +1,5 @@
 //
-//  NewsListNavigationView.swift
+//  NewsListContainerView.swift
 //  SampleNewsApp
 //
 //  Created by Amit Sharma on 07/02/24.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 /// Provide container view for News List
-struct NewsListNavigationView: View {
+struct NewsListContainerView: View {
     @ObservedObject var newsViewModel: NewsViewModel
     
     init(newsViewModel: NewsViewModel) {
@@ -17,7 +17,7 @@ struct NewsListNavigationView: View {
     var body: some View {
         NavigationView {
             VStack {
-                if !newsViewModel.errorMessage.isEmpty {
+                if newsViewModel.isErrorMessageEmpty {
                     Text(newsViewModel.errorMessage)
                 }
                 else {

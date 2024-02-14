@@ -236,8 +236,8 @@
             filePath = "SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "fetchNews()"
             landmarkType = "7">
             <Locations>
@@ -314,8 +314,8 @@
             filePath = "SampleNewsApp/Features/NewsListView/Presentation/ViewModel/NewsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "fetchNews()"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,8 +330,8 @@
             filePath = "SampleNewsApp/Features/NewsListView/Data/Service/NewsAPIWorker.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "fetchNews()"
             landmarkType = "7">
          </BreakpointContent>

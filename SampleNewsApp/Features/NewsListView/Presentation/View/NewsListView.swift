@@ -19,3 +19,4 @@ struct NewsListView: View {
          .listStyle(.plain)
     }
 }
+

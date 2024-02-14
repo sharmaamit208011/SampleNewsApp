@@ -14,9 +14,10 @@ protocol NewsAPIWorkerProtocol {
 /// Purpose of this class to communicate Network layer to get data
 final class NewsAPIWorker: NewsAPIWorkerProtocol {
     private let networkClient: NetworkClient
-    private let newsAPIService: NetWorkService = NewsAPIService()
-    init(networkClient: NetworkClient) {
+    private let newsAPIService: NetWorkService
+    init(networkClient: NetworkClient, newsAPIService: NetWorkService = NewsAPIService()) {
         self.networkClient = networkClient
+        self.newsAPIService = newsAPIService
     }
     
     func fetchNews() async throws -> [NewsDataDTO] {

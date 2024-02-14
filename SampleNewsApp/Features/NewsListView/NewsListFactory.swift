@@ -39,9 +39,9 @@ final class NewsListFactory {
         NewsViewModel(fetchNewsUseCase: createNewsUseCase())
     }
     
-    /// Ceate NewsListNavigationView Object
-    /// - Returns: NewsListNavigationView object
-    func createNewsListNavigationView() -> NewsListNavigationView {
-        NewsListNavigationView(newsViewModel: createNewsViewModel())
+    /// Ceate NewsListContainerView Object
+    /// - Returns: NewsListContainerView object
+    func createNewsListContainerView() -> NewsListContainerView {
+        NewsListContainerView(newsViewModel: createNewsViewModel())
     }
 }

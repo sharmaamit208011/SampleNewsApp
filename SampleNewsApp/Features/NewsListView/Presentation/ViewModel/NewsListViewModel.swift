@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// View Model Class to provice data to News List View
+/// View Model Class to provide data to News List View
 final class NewsListViewModel: ObservableObject {
     @Published var newsList: [News]?
     

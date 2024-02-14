@@ -33,7 +33,7 @@ final class NewsListViewSnapshotTests: XCTestCase {
     func testSuccessAppearance() {
         viewModel?.newsList = MockData.newsList
         if let viewModel = viewModel {
-            let contentView = NewsListNavigationView(newsViewModel: viewModel)
+            let contentView = NewsListContainerView(newsViewModel: viewModel)
             let viewController = contentView.toViewController()
             viewController.performSnapshotTests(named: "NewsListView_Success")
         }

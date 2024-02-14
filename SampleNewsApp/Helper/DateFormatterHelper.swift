@@ -7,7 +7,7 @@
 
 import Foundation
 
-class DateFormatterHelper {
+struct DateFormatterHelper {
     static func getFormattedDate(date: Date?) -> String {
         guard let date = date else { return "" }
         let format = DateFormatter()

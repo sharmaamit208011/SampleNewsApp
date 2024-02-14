@@ -9,8 +9,8 @@ import Foundation
 
 /// App dependency injection container
 final class AppDIContainer {
-    lazy var newsListView: NewsListNavigationView = {
+    lazy var newsListView: NewsListContainerView = {
         let newsListFactory = NewsListFactory(networkClient: ApiNetworkClient())
-        return newsListFactory.createNewsListNavigationView()
+        return newsListFactory.createNewsListContainerView()
     }()
 }

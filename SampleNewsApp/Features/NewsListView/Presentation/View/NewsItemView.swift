@@ -31,7 +31,7 @@ struct NewsItemView: View {
                 .aspectRatio(contentMode: .fit)
             
             VStack(alignment: .leading, spacing: 4.0) {
-                if !viewModel.isTitleEmpty() {
+                if viewModel.isTitleEmpty {
                     Text(viewModel.news?.title ?? "")
                         .font(.custom("HelveticaNeue-Bold", size: 16.0))
                 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// View Model Class to provice data to News List Navigation View
+/// View Model Class to provide data to News List Navigation View
 final class NewsViewModel: ObservableObject {
     
     @Published var newsList: [News] = []
@@ -16,6 +16,10 @@ final class NewsViewModel: ObservableObject {
         
     init(fetchNewsUseCase: FetchNewsUseCaseProtocol) {
         self.fetchNewsUseCase = fetchNewsUseCase
+    }
+    
+    var isErrorMessageEmpty: Bool {
+        return !errorMessage.isEmpty
     }
     
     @MainActor
