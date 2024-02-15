@@ -14,7 +14,7 @@ enum HTTPMethod: String {
 }
 
 /// This class provide Network related API calls for fetching data using Rest APis
-class ApiNetworkClient: NetworkClient {
+struct ApiNetworkClient: NetworkClient {
     
     private let session: URLSession
     public init(session: URLSession = URLSession.shared) {

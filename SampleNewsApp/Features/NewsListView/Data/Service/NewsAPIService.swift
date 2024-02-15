@@ -8,7 +8,7 @@
 import Foundation
 
 /// Purpose of this class is to construct parameter to make api call
-class NewsAPIService: NetWorkService {
+struct NewsAPIService: NetWorkService {
     var apiEnvironment: Environment = DefaultEnvironment()
     var apiIdentifier: APIIdentifier? = .fetchLatestNews
     var apiUrl: URL? {

@@ -8,7 +8,7 @@
 import Foundation
 
 /// Purpose of this class to parse raw data in it's own way and return models/objects
-class NewsApiResponseParser: ResponseParser {
+struct NewsApiResponseParser: ResponseParser {
     func parse(data: Any) throws -> Any? {
         guard let data = data as? Data else { return nil }
             let decoder = JSONDecoder()
