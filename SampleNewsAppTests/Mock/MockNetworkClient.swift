@@ -31,7 +31,7 @@ class MockNetworkClient: NetworkClient {
 }
  
 extension MockNetworkClient {
-    internal static func getMockFileName(apiIdentifier: APIIdentifier?) -> String? {
+     static func getMockFileName(apiIdentifier: APIIdentifier?) -> String? {
         var fileName: String?
         guard let apiIdentifier = apiIdentifier else { return nil }
         switch apiIdentifier {
@@ -40,17 +40,6 @@ extension MockNetworkClient {
             
         }
         return fileName
-    }
-    
-    internal static func getMockData(fileName: String, completion: @escaping (Data?) -> Void) {
-        DispatchQueue.global().async {
-            guard let path = Bundle.main.path(forResource: fileName, ofType: "json") else {
-                completion(nil)
-                return
-            }
-            let data = try? Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-            completion(data)
-        }
     }
 }
  

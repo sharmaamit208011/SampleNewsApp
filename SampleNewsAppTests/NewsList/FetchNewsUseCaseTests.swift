@@ -8,6 +8,7 @@
 import XCTest
 @testable import SampleNewsApp
 
+// Set Objects as nil
 final class FetchNewsUseCaseTests: XCTestCase {
     var mockNewsRepository: MockNewsRepository?
     var newsUseCase: FetchNewsUseCase?
@@ -17,12 +18,11 @@ final class FetchNewsUseCaseTests: XCTestCase {
         mockNewsRepository = MockNewsRepository()
         newsUseCase = FetchNewsUseCase(newsRepository: mockNewsRepository ?? MockNewsRepository())
     }
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    override func tearDown() {
+        super.tearDown()
+        mockNewsRepository = nil
+        newsUseCase = nil
     }
 
     func testFetchNewsSuccess() async throws {

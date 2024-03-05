@@ -9,6 +9,9 @@ import Foundation
 
 /// Purpose of this class to parse raw data in it's own way and return models/objects
 struct NewsApiResponseParser: ResponseParser {
+    /// Parse Data fetched from API
+    /// - Parameter data: Data fetched from API
+    /// - Returns: Parsed data
     func parse(data: Any) throws -> Any? {
         guard let data = data as? Data else { return nil }
             let decoder = JSONDecoder()

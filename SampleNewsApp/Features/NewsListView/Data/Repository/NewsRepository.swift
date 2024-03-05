@@ -19,6 +19,8 @@ final class NewsRepository: NewsRepositoryProtocol {
         self.newsAPIWorker = newsAPIWorker
     }
     
+    /// Fetch News
+    /// - Returns: array of NewsDomainDTO
     func fetchNews() async throws -> [NewsDomainDTO] {
         do {
             let newsList = try await newsAPIWorker.fetchNews()

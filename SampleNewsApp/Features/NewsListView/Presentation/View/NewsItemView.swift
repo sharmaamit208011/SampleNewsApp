@@ -10,7 +10,7 @@ import Kingfisher
 
 /// Provide news list single item view
 struct NewsItemView: View {
-    @State var viewModel: NewsItemViewModel
+    @ObservedObject var viewModel: NewsItemViewModel
     init(viewModel: NewsItemViewModel) {
         self.viewModel = viewModel
     }
